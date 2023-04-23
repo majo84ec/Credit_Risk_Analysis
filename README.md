@@ -11,9 +11,21 @@ We’ll oversample the data using the RandomOverSampler and SMOTE algorithms, an
 ### Oversampling
 ![image](https://user-images.githubusercontent.com/120151872/233814396-02aaaf4f-394a-43f8-b14e-22408194a636.png)
 
+- Balanced accuracy score : 0.60
+- Precision : 0.01 for high_risk and 1.00 for low_risk
+- Recall score : 0.71 for high_risk and 0.60 for low_risk
+- f1 score : 0.02 for high_risk and 0.75 for low_risk
+
+The low precision and F1 scores for high_risk category means this model is not appropiate to predict high_risk credit assessment.
+
 ### SMOTE Oversampling
 ![image](https://user-images.githubusercontent.com/120151872/233814420-bea66118-11c4-464a-a325-00b56fcac6b2.png)
 
+Balanced accuracy score : 0.66
+Precision : 0.01 for high_risk and 1.00 for low_risk
+Recall score : 0.63 for high_risk and 0.69 for low_risk
+F1 score : 0.02 for high_risk and 0.82 for low_risk
+From the low precision and F1 scores for high_risk category, it can be concluded that this model is not good to predict high_risk credit assessment.
 ### Undersampling 
 ![image](https://user-images.githubusercontent.com/120151872/233814444-7d1c962e-540f-45f0-98f7-49ca7ed06a8b.png)
 
